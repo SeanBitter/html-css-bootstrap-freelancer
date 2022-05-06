@@ -1,0 +1,55 @@
+:root {
+    --color-one: #1ABC9C;
+    --color-two: #2C3E50;
+    --color-two-light: #3A546D;
+    --color-three: #333333;
+}
+
+header {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.bg-one {
+    background-color: var(--color-one);
+}
+
+.bg-two {
+    background-color: var(--color-two);
+}
+
+.bg-two-light {
+    background-color: var(--color-two-light);
+}
+
+.section {
+    padding: 2rem;
+}
+
+.card-section-one img {
+    width: 200px;
+    margin: auto;
+}
+
+.card-img img {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+}
