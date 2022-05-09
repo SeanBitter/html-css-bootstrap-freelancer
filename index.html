@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Start Bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,13 +13,13 @@
 
     <header class="bg-two">
         <!-- Navbar -->
-        <div class="container-lg">
-            <div class="d-flex justify-content-between py-4">
-                <div><a href="#">START BOOTSTRAP</a></div>
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center py-3">
+                <div class="fs-4"><a href="#start">START BOOTSTRAP</a></div>
                 <div class="d-flex flex-gap">
-                    <div class="px-3"><a href="#">PORTFOLIO</a></div>
-                    <div class="px-3"><a href="#">ABOUT</a></div>
-                    <div class="px-3"><a href="#">CONTACT</a></div>
+                    <div class="px-3"><a href="#portfolio">PORTFOLIO</a></div>
+                    <div class="px-3"><a href="#about">ABOUT</a></div>
+                    <div class="px-3"><a href="#contact-me">CONTACT</a></div>
                 </div>
             </div>
         </div>
@@ -26,50 +27,61 @@
 
     <main>
         <!-- Start Bootstrap -->
-        <div class="section bg-one">
-            <div class="container-sm d-flex justify-content-center ">
+        <div class="section bg-one py-5 text-white" id="start">
+            <div class="container text-center">
                 <div class="card-section-one">
                     <div class="d-flex"><img src="img/avatar.svg" alt=""></div>
-                    <div class="card-text">
-                        <h2>START BOOTSTRAP</h2>
-                        <h4>GRAPHIC ARTIST</h4>
+                    <div class="card-text row">
+                        <h1 class="">START BOOTSTRAP</h1>
+                        <div class="col-sm-5 col-md-5 col-lg-3 mx-auto d-flex align-items-center py-2">
+                            <div class="border-bottom border-3 flex-grow-1"></div>
+                            <div class="star fs-4 px-sm-1 px-md-3 px-lg-4"><i class="fa-solid fa-star"></i></div>
+                            <div class="border-bottom border-3 flex-grow-1"></div>
+                        </div>
+                        <h5 class=""> GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Portfolio -->
-        <div class="section">
-            <div class="container-sm">
-                <h2>PORTFOLIO</h2>
+        <div class="section color-two" id="portfolio">
+            <div class="container">
+                <h2 class="text-center">PORTFOLIO</h2>
+
+                <div class="col-sm-5 col-md-5 col-lg-3 mx-auto d-flex align-items-center py-2">
+                    <div class="my-border-bottom border-3 flex-grow-1"></div>
+                    <div class="star fs-4 px-sm-1 px-md-3 px-lg-4"><i class="fa-solid fa-star"></i></div>
+                    <div class="my-border-bottom border-3 flex-grow-1"></div>
+                </div>
 
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-4 py-3">
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-3 px-3">
                         <div class="card-img">
                             <img src="img/cabin.png" alt="">
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 py-3">
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-3 px-3">
                         <div class="card-img">
                             <img src="img/cake.png" alt="">
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 py-3">
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-3 px-3">
                         <div class="card-img">
                             <img src="img/circus.png" alt="">
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 py-3">
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-3 px-3">
                         <div class="card-img">
                             <img src="img/game.png" alt="">
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 py-3">
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-3 px-3">
                         <div class="card-img">
                             <img src="img/safe.png" alt="">
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 py-3">
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-3 px-3">
                         <div class="card-img">
                             <img src="img/submarine.png" alt="">
                         </div>
@@ -79,39 +91,61 @@
         </div>
 
         <!-- About -->
-        <div class="section bg-one">
+        <div class="section bg-one text-white" id="about">
             <div class="container">
-                <h2>ABOUT</h2>
+                <h2 class="text-center">ABOUT</h2>
 
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ex similique labore, ullam quos nesciunt quia recusandae vel consectetur, vero quam voluptatum quibusdam soluta!</div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sapiente aperiam nam asperiores provident dolore, vero ducimus exercitationem! Accusantium et officia soluta cum quos.</div>
+                <div class="col-sm-5 col-md-5 col-lg-3 mx-auto d-flex align-items-center py-2">
+                    <div class="border-bottom border-3 flex-grow-1"></div>
+                    <div class="star fs-4 px-sm-1 px-md-3 px-lg-4"><i class="fa-solid fa-star"></i></div>
+                    <div class="border-bottom border-3 flex-grow-1"></div>
+                </div>
+
+                <div class="row mx-auto">
+                    <div class="col-sm-10 col-md-5 col-lg-5 py-3 ms-auto">Freelancer is a free bootstrap theme created by Star Bootstrap. The download include the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.</div>
+                    <div class="col-sm-10 col-md-5 col-lg-5 py-3 me-auto">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
+                </div>
+
+                <div class="text-center py-4">
+                    <button class="btn btn-outline-light"><i class="fa-solid fa-download pe-2"></i>Download</button>
                 </div>
             </div>
         </div>
 
         <!-- Contact me -->
-        <div class="section">
+        <div class="section color-two" id="contact-me">
             <div class="container">
+
+                <h2 class="text-center">CONTACT ME</h2>
+
+                <div class="col-sm-5 col-md-5 col-lg-3 mx-auto d-flex align-items-center py-2">
+                    <div class="my-border-bottom border-3 flex-grow-1"></div>
+                    <div class="star fs-4 px-sm-1 px-md-3 px-lg-4"><i class="fa-solid fa-star"></i></div>
+                    <div class="my-border-bottom border-3 flex-grow-1"></div>
+                </div>
+
                 <form>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput">Name</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control my-form-border" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Name</label>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email Address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control my-form-border" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
                     </div>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput">Phone Number</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Phone Number">
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control my-form-border" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Phone Number</label>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control my-form-border" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px"></textarea>
+                        <label for="floatingTextarea">Message</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send</button>
+                        
+                    
+                    <button type="submit" class="btn my-btn-form btn-primary">Send</button>
                 </form>
+
             </div>
         </div>
 
@@ -119,20 +153,36 @@
 
     <footer>
         <!-- Footer -->
-        <div class="section bg-two-light">
+        <div class="section bg-two-light text-white">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-4 col-lg-4 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, dicta? Excepturi tempora minus modi earum odio natus accusamus, cumque in illum, obcaecati ut quia aperiam asperiores blanditiis dolore porro quaerat.</div>
-                    <div class="col-sm-12 col-md-4 col-lg-4 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quidem officiis, deleniti ipsum eius consequuntur, ducimus iste laborum saepe possimus, error dolorum odio consectetur quasi ipsa a aperiam asperiores voluptatibus!</div>
-                    <div class="col-sm-12 col-md-4 col-lg-4 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nihil? Ea pariatur quae repellendus! Doloribus dolor nobis harum sit. Beatae sit eos corrupti cumque magnam error possimus vero in totam?</div>
+                <div class="row mx-auto">
+                    <div class="col-sm-12 col-md-4 col-lg-4 py-2 text-center">
+                        <h5>LOCATION</h5>
+                        <p>2215 John Daniel Drive Clark, MO 54243</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 py-2 text-center">
+                        <h5>AROUND THE WEB</h5>
+                        <div class="d-flex justify-content-center gap align-items-center px-5">
+                            <div><button class="btn logos btn-circle border-white text-white rounded-circle py-2"><i class="fa-brands fa-facebook-f"></i></button></div>
+                            <div><button class="btn logos btn-circle border-white text-white rounded-circle py-2"><i class="fa-brands fa-google-plus-g"></i></button></div>
+                            <div><button class="btn logos btn-circle border-white text-white rounded-circle py-2"><i class="fa-brands fa-twitter"></i></button></div>
+                            <div><button class="btn logos btn-circle border-white text-white rounded-circle py-2"><i class="fa-brands fa-linkedin-in"></i></button></div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 py-2 text-center">
+                        <h5>ABOUT FREELANCER</h5>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#start" class="bottom-link">Start Bootstrap</a>.</p>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Copyright -->
 
-        <div class="bg-two footer-bottom">
-            <p>Copyright Your Website 2019</p>
+        <div class="bg-two text-center text-white">
+            <p class="py-5">Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</p>
         </div>
     </footer>
 </body>
